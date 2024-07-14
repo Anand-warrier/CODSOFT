@@ -8,6 +8,7 @@
 html,
 body {
   height: 100%;
+  font-family: monospace;
 }
 body {
   display: grid;
@@ -61,4 +62,10 @@ body {
 }
 .btn:active {
   background-color: #ddd;
+}
+#clear{
+    background-color: orange;
+}
+#clear:active{
+    background-color: rgb(190, 126, 7);
 }
